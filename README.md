@@ -1,7 +1,33 @@
 <!-- ![Semantic description of image](/assets/patagonian.png "Image Title") -->
 # Patagonia's Nft & Web3 Hackaton :rocket:
 
-Welcome to the “ultilities & general info repository” for Patagonian’s Nft Hackaton. Here you can find a basic guide and resources to start with our challenge. Keep in mind that you are free to use this resource with freedom and all approaches for finishing/delivering the final product. Any architecture, design or technologies set are valid as long as you can keep the following:
+Welcome to the “ultilities & general info repository” for Patagonian’s Nft Hackaton. Here you can find a basic guide and resources to start with our challenge. Keep in mind that you are free to use this resource with freedom and all approaches for finishing/delivering the final product. Any architecture, design or technologies set are valid.
+
+## Overview
+
+## Requirements
+
+- Any Javascript based front-end framework (we recommend Nextjs for the easy server/api integration).
+
+- Ganache client installed locally.
+
+- Truffle Console installed locally.
+
+- Web Browser Metamask extension.
+
+- ethers library installed in project (this is an adapter library used to interact with metamask).
+
+- @openzeppelin/contracts library installed in project (set of tools used for developing smart contracts).
+
+- @metamask/providers library also installed in the project.
+
+- lts node version (ethers library only supports lts).
+
+- a metadata & image hosting (we recommend "pinata").
+
+### Optional:
+
+- ethereum-abi-types-generator library. Tool to get types and interfaces of your contract.
 
 ## Summary ###
 
