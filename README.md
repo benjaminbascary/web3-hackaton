@@ -13,6 +13,15 @@ Welcome to the “ultilities & general info repository” for Patagonian’s Nft
 
 - Truffle Console installed locally.
 
+
+- #### When your run: ```truffle --version``` you should see something like this:
+
+  - ```Truffle v5.7.3 (core: 5.7.3)```
+  - ```Ganache v7.7.3```
+  - ```Solidity - 0.8.17 (solc-js)```
+  - ```Node v18.13.0```
+  - ```Web3.js v1.8.1```
+
 - Web Browser Metamask extension.
 
 - ethers library installed in project (this is an adapter library used to interact with metamask).
