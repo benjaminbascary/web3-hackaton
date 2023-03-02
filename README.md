@@ -1,11 +1,19 @@
 <!-- ![Semantic description of image](/assets/patagonian.png "Image Title") -->
-# Patagonia's Nft & Web3 Hackaton :rocket:
+# Patagonian's Nft & Web3 Hackaton :rocket:
 
 Welcome to the “ultilities & general info repository” for Patagonian’s Nft Hackaton. Here you can find a basic guide and resources to start with our challenge. Keep in mind that you are free to use this resource with freedom and all approaches for finishing/delivering the final product. Any architecture, design or technologies set are valid.
 
-## Overview
+## Resources:
 
-## Requirements
+### Basic guide (here you can find how to interact with contract).
+
+[Truffle-Suite-Guide](https://trufflesuite.com/guides/nft-marketplace/)
+
+[Video-tutorial-sample](https://www.youtube.com/watch?v=ToA62ZpR0Ys&ab_channel=thirdweb)
+
+## Requirements && recomendations
+
+- lts node version (ethers library only supports lts. 18 is recommended).
 
 - Any Javascript based front-end framework (we recommend Nextjs for the easy server/api integration).
 
@@ -13,8 +21,9 @@ Welcome to the “ultilities & general info repository” for Patagonian’s Nft
 
 - Truffle Console installed locally.
 
+- Open ganache and load ```config/truffle-config.js``` folder in a new project.
 
-- #### When your run: ```truffle --version``` you should see something like this:
+- #### When your run: ``` $ truffle --version``` you should see something like this:
 
   - ```Truffle v5.7.3 (core: 5.7.3)```
   - ```Ganache v7.7.3```
@@ -24,25 +33,37 @@ Welcome to the “ultilities & general info repository” for Patagonian’s Nft
 
 - Web Browser Metamask extension.
 
-- ethers library installed in project (this is an adapter library used to interact with metamask).
+- ethers library installed in project (this is an adapter library used to interact with metamask and will make your development experiencie easier).
 
 - @openzeppelin/contracts library installed in project (set of tools used for developing smart contracts).
 
-- @metamask/providers library also installed in the project.
+- @metamask/providers library also installed in the project (optional).
 
-- lts node version (ethers library only supports lts).
+- a metadata & image hosting for dApps (we recommend "pinata").
 
-- a metadata & image hosting (we recommend "pinata").
+- Lastly, with truffle suite installed and ready for development, migrate the contract with: ``` $ truffle migrate```
 
 ### Optional:
 
-- ethereum-abi-types-generator library. Tool to get types and interfaces of your contract.
+- ethereum-abi-types-generator library. Tool to get types and interfaces for your contract. [Here](https://www.npmjs.com/package/ethereum-abi-types-generator/)
 
 ## Summary ###
 
-### contract:
+### Contract:
 
-- This is a base contract you can use for this challenge so you can concentrate and put all efforts on more familiar technologies on the client/server side. Feel free to use, modify or not use it at all. We encourage you to use and develop your own contract if you can manage and have the time to.
+- A base NFT contract with all features, ready to use.
+
+### Config
+
+- Configuration file needed for Ganache.
+
+### Migrations
+
+- ```$ truffle migrate``` will search for any migration under ```/migrations```. Next, the migration will load contract under ```/contracts```
+
+### env.example
+
+- Default Ganache's chain ID number and network ID number.
 
 
 
