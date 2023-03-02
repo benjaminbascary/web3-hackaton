@@ -65,5 +65,6 @@ Welcome to the “ultilities & general info repository” for Patagonian’s Nft
 
 - Default Ganache's chain ID number and network ID number.
 
+### General architecture guide (optional)
 
-
+![Semantic description of image](/asset/basic-arch.drawio.png "Example")
